@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "country": "UK",
+    "question": "How do I get a student Oyster card in London?",
+    "details": "I am new in the UK. What do I need and where to apply?",
+    "author": "New student",
+    "date": "2026-03-01",
+    "answers": [
+      {
+        "text": "Apply on the TfL website. You usually need a university login or photo for the card.",
+        "author": "Student helper"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "country": "USA",
+    "question": "What’s the cheapest way to get a SIM card?",
+    "details": "I need data mainly for maps and messaging.",
+    "author": "International student",
+    "date": "2026-03-01",
+    "answers": []
+  }
+]

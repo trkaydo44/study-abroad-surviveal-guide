@@ -3,140 +3,104 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LUKAS | Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Study Abroad Survival Guide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <div class="container header-wrap">
-    <a class="brand" href="index.html">
-      <span class="logo-dot"></span>
-      <span>LUKAS</span>
-      <span class="badge">EST. 2025</span>
-    </a>
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Survival Guide</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shoes.html">Shop Shoes</a></li>
-        <li><a href="clothes.html">Shop Clothes</a></li>
-        <li><a href="offers.html">Special Offers</a></li>
-        <li><a href="size-guide.html">Size Guide</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+        <li class="nav-item"><a class="nav-link" href="forum.html">Q&A</a></li>
+        <li class="nav-item"><a class="nav-link" href="guides.html">Country Guides</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item" data-auth-area></li>
       </ul>
-    </nav>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <h1 class="display-5 fw-bold">Real tips from real international students.</h1>
+        <p class="lead text-muted">
+          Budgeting, housing, culture shock, transport, food — practical advice to survive and thrive abroad.
+        </p>
+
+        <form class="d-flex gap-2" action="tips.html">
+          <input class="form-control form-control-lg" name="q" placeholder="Search tips (Oyster, halal, SIM card)">
+          <button class="btn btn-lg btn-primary" type="submit">Search</button>
+        </form>
+
+        <div class="mt-4 d-flex gap-2 flex-wrap">
+          <a class="btn btn-outline-dark" href="guide-uk.html">UK Guide</a>
+          <a class="btn btn-outline-dark" href="guide-usa.html">USA Guide</a>
+          <a class="btn btn-outline-dark" href="guide-canada.html">Canada Guide</a>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3">Popular categories</h5>
+            <div class="d-grid gap-2">
+              <a class="btn btn-light text-start" href="tips.html#Budget">💸 Budgeting & saving</a>
+              <a class="btn btn-light text-start" href="tips.html#Housing">🏠 Housing</a>
+              <a class="btn btn-light text-start" href="tips.html#Transport">🚇 Transport</a>
+              <a class="btn btn-light text-start" href="tips.html#Food">🍲 Food & halal options</a>
+              <a class="btn btn-light text-start" href="tips.html#Culture">🤝 Culture & social life</a>
+            </div>
+          </div>
+        </div>
+        <p class="footer-note mt-3 mb-0">Built for students, by students.</p>
+      </div>
+    </div>
   </div>
 </header>
 
-<main class="container">
-
-  <section class="hero">
-    <h1>Modern Shoes & Clothing</h1>
-    <p>
-      Welcome to LUKAS — a clean and stylish fashion shop for UK customers.
-      Browse shoes, clothes, and special offers with a simple, user-friendly layout.
-    </p>
-
-    <!-- CAROUSEL -->
-    <div class="carousel">
-      <div class="carousel-track">
-
-        <div class="slide" style="background-image:url('images/home1.jpg');background-size:cover;background-position:center;">
-          <div class="slide-inner">
-            <h2>New Season Essentials</h2>
-            <p>Minimal design, premium look. Explore the latest shoes and outfits for everyday style.</p>
-          </div>
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 border rounded-4 h-100">
+          <h5 class="fw-bold">Tip Sharing</h5>
+          <p class="text-muted mb-0">Post real advice like “cheapest groceries” or “best student SIM.”</p>
         </div>
-
-        <div class="slide" style="background-image:url('images/home2.jpg');background-size:cover;background-position:center;">
-          <div class="slide-inner">
-            <h2>Streetwear Collection</h2>
-            <p>Comfort + confidence. Discover clean hoodies, jackets and modern fits.</p>
-          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 border rounded-4 h-100">
+          <h5 class="fw-bold">Q&A Forum</h5>
+          <p class="text-muted mb-0">Ask questions and get answers from students already living there.</p>
         </div>
-
-        <div class="slide" style="background-image:url('images/home3.jpg');background-size:cover;background-position:center;">
-          <div class="slide-inner">
-            <h2>Exclusive Offers</h2>
-            <p>Limited discounts on selected items. Check the special offers page today.</p>
-          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 border rounded-4 h-100">
+          <h5 class="fw-bold">Country Guides</h5>
+          <p class="text-muted mb-0">UK/USA/Canada guides organised by housing, food, culture and more.</p>
         </div>
-
-      </div>
-
-      <div class="carousel-controls">
-        <button class="btn prevBtn" type="button">Prev</button>
-        <div class="dots"></div>
-        <button class="btn nextBtn" type="button">Next</button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- FEATURED -->
-  <section class="section">
-    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
-      <h2 style="margin:0">Featured Products</h2>
-      <a class="btn btn-gold" href="offers.html">View Offers</a>
-    </div>
-
-    <div class="grid grid-4" style="margin-top:18px;">
-      <div class="card product">
-        <img class="product-img" src="images/shoe1.jpg" alt="Classic Trainers">
-        <h3>Classic Trainers</h3>
-        <div class="price">£59.99</div>
-        <div class="muted">Everyday comfort</div>
-        <div style="margin-top:12px;"><a class="btn" href="shoes.html">Shop Shoes</a></div>
-      </div>
-
-      <div class="card product">
-        <img class="product-img" src="images/shoe2.jpg" alt="Smart Casual Loafers">
-        <h3>Smart Casual Loafers</h3>
-        <div class="price">£74.99</div>
-        <div class="muted">Clean formal style</div>
-        <div style="margin-top:12px;"><a class="btn" href="shoes.html">Shop Shoes</a></div>
-      </div>
-
-      <div class="card product">
-        <img class="product-img" src="images/cloth1.jpg" alt="Minimal Hoodie">
-        <h3>Minimal Hoodie</h3>
-        <div class="price">£34.99</div>
-        <div class="muted">Soft premium fabric</div>
-        <div style="margin-top:12px;"><a class="btn" href="clothes.html">Shop Clothes</a></div>
-      </div>
-
-      <div class="card product">
-        <img class="product-img" src="images/cloth2.jpg" alt="Denim Jacket">
-        <h3>Denim Jacket</h3>
-        <div class="price">£49.99</div>
-        <div class="muted">Streetwear essential</div>
-        <div style="margin-top:12px;"><a class="btn" href="clothes.html">Shop Clothes</a></div>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer>
-  <div class="container footer-grid">
-    <div>
-      <div class="brand" style="gap:10px">
-        <span class="logo-dot"></span><span>LUKAS</span>
-      </div>
-      <p class="small">Modern fashion for UK shoppers — shoes and clothing with a clean, premium style.</p>
-      <p class="small">Email: lukas@example.com • Phone: 07448 841 583</p>
-    </div>
-
-    <div>
-      <p class="small"><b>Social</b></p>
-      <p class="small">Instagram: @lukasfashion</p>
-      <p class="small">TikTok: @lukasfashion</p>
-    </div>
+<footer class="border-top py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <div class="text-muted">© 2026 Study Abroad Survival Guide</div>
+    <div class="text-muted">Made by an international student.</div>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

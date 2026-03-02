@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "country": "UK",
+    "category": "Transport",
+    "title": "Apply for a Student Oyster card early",
+    "text": "Use your university email to apply online and save money on London transport.",
+    "author": "London Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "country": "UK",
+    "category": "Budget",
+    "title": "Shop at Aldi or Lidl",
+    "text": "These supermarkets are usually cheaper than Tesco or Sainsbury’s for everyday groceries.",
+    "author": "UK Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 3,
+    "country": "UK",
+    "category": "Housing",
+    "title": "Check bills before renting",
+    "text": "Always ask if electricity, gas, and internet are included in rent.",
+    "author": "International Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 4,
+    "country": "UK",
+    "category": "Food",
+    "title": "Find halal food near universities",
+    "text": "Most UK cities have halal shops near campuses. Search Google Maps or ask student societies.",
+    "author": "Manchester Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 5,
+    "country": "UK",
+    "category": "Culture",
+    "title": "Join university societies",
+    "text": "Clubs help you make friends quickly and reduce homesickness.",
+    "author": "Campus Mentor",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 6,
+    "country": "UK",
+    "category": "Budget",
+    "title": "Use student discount apps",
+    "text": "Download UNiDAYS and Student Beans for discounts in shops and online stores.",
+    "author": "Student Advisor",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 7,
+    "country": "UK",
+    "category": "Transport",
+    "title": "Get a Railcard",
+    "text": "A 16–25 or student railcard gives up to 1/3 off train tickets.",
+    "author": "UK Traveller",
+    "date": "2026-03-01"
+  },
+
+  {
+    "id": 8,
+    "country": "USA",
+    "category": "Budget",
+    "title": "Cook more instead of eating out",
+    "text": "Restaurant meals are expensive. Cooking at home saves a lot each month.",
+    "author": "Boston Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 9,
+    "country": "USA",
+    "category": "Housing",
+    "title": "Share accommodation",
+    "text": "Sharing apartments with other students reduces rent and utility costs.",
+    "author": "New York Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 10,
+    "country": "USA",
+    "category": "Transport",
+    "title": "Check campus shuttle services",
+    "text": "Many universities offer free transport between campus buildings and housing areas.",
+    "author": "Campus Guide",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 11,
+    "country": "USA",
+    "category": "Food",
+    "title": "Join cultural student groups",
+    "text": "International societies often share locations of affordable cultural restaurants.",
+    "author": "International Club",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 12,
+    "country": "USA",
+    "category": "Culture",
+    "title": "Attend orientation events",
+    "text": "Orientation week helps you understand campus systems and meet new people.",
+    "author": "Student Volunteer",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 13,
+    "country": "USA",
+    "category": "Budget",
+    "title": "Use student ID everywhere",
+    "text": "Many museums, cinemas, and shops offer discounts with a student ID.",
+    "author": "Exchange Student",
+    "date": "2026-03-01"
+  },
+
+  {
+    "id": 14,
+    "country": "Canada",
+    "category": "Housing",
+    "title": "Ask about heating costs",
+    "text": "Heating can be expensive in winter, so confirm if it’s included in rent.",
+    "author": "Toronto Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 15,
+    "country": "Canada",
+    "category": "Transport",
+    "title": "Get a student transit pass",
+    "text": "Most cities offer discounted monthly passes for students.",
+    "author": "Vancouver Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 16,
+    "country": "Canada",
+    "category": "Budget",
+    "title": "Buy winter clothes locally",
+    "text": "It’s cheaper to buy proper winter jackets after arriving in Canada.",
+    "author": "International Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 17,
+    "country": "Canada",
+    "category": "Food",
+    "title": "Use community markets",
+    "text": "Local markets often sell fresh food cheaper than supermarkets.",
+    "author": "Montreal Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 18,
+    "country": "Canada",
+    "category": "Culture",
+    "title": "Volunteer to build connections",
+    "text": "Volunteering helps improve experience and meet local people.",
+    "author": "Student Helper",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 19,
+    "country": "Canada",
+    "category": "Transport",
+    "title": "Check winter bus schedules",
+    "text": "Snow can affect transport times, so always plan extra travel time.",
+    "author": "Calgary Student",
+    "date": "2026-03-01"
+  },
+  {
+    "id": 20,
+    "country": "Canada",
+    "category": "Budget",
+    "title": "Use student banking accounts",
+    "text": "Many Canadian banks offer zero-fee accounts for students.",
+    "author": "Finance Student",
+    "date": "2026-03-01"
+  }
+]

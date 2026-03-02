@@ -1,0 +1,39 @@
+/* styles.css */
+:root{
+  --card-radius: 18px;
+}
+
+body{
+  background:#fff;
+}
+
+.hero{
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+.rounded-4{
+  border-radius: var(--card-radius) !important;
+}
+
+.card, .border{
+  border-radius: var(--card-radius);
+}
+
+.navbar .btn{
+  border-radius: 999px;
+}
+
+.badge{
+  border-radius: 999px;
+  padding: .5rem .7rem;
+}
+
+.small-muted{
+  color:#6c757d;
+  font-size:.9rem;
+}
+
+.footer-note{
+  color:#6c757d;
+  font-size:.9rem;
+}

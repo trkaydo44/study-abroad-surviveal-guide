@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Q&A | Survival Guide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Survival Guide</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+        <li class="nav-item"><a class="nav-link active" href="forum.html">Q&A</a></li>
+        <li class="nav-item"><a class="nav-link" href="guides.html">Country Guides</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item" data-auth-area></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="py-5">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+      <div>
+        <h1 class="fw-bold mb-1">Q&A Forum</h1>
+        <p class="text-muted mb-0">Ask questions and get answers from other students.</p>
+      </div>
+      <button class="btn btn-outline-dark" id="btnAsk">+ Ask a question</button>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-md-3">
+        <label class="form-label">Country</label>
+        <select class="form-select" id="qCountry">
+          <option value="All">All</option>
+          <option value="UK">UK</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+        </select>
+      </div>
+      <div class="col-md-9">
+        <label class="form-label">Search</label>
+        <input class="form-control" id="qSearch" placeholder="Search questions..." />
+      </div>
+    </div>
+
+    <div class="row g-3" id="questionsList"></div>
+  </div>
+</main>
+
+<!-- Ask Modal -->
+<div class="modal fade" id="askModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold">Ask a question</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <label class="form-label">Country</label>
+            <select class="form-select" id="askCountry">
+              <option>UK</option><option>USA</option><option>Canada</option>
+            </select>
+          </div>
+          <div class="col-md-8">
+            <label class="form-label">Question</label>
+            <input class="form-control" id="askQuestion" placeholder="Type your question">
+          </div>
+          <div class="col-12">
+            <label class="form-label">Details</label>
+            <textarea class="form-control" id="askDetails" rows="4" placeholder="Add more details (optional)"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="me-auto text-danger small" id="askError"></div>
+        <button class="btn btn-outline-dark" data-bs-dismiss="modal">Cancel</button>
+        <button class="btn btn-primary" id="saveQuestionBtn">Post Question</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="border-top py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <div class="text-muted">© 2026 Study Abroad Survival Guide</div>
+    <div class="text-muted">Be respectful and helpful.</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+<script src="auth.js"></script>
+<script src="forum.js"></script>
+</body>
+</html>
